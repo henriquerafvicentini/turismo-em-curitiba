@@ -1,0 +1,32 @@
+header {
+    background: #CCCCCC;
+    padding: 10px 0;
+}
+
+.caixa {
+    position: relative;
+}
+
+.tp {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+
+}
+.imagem {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    display: block;
+    margin-right: 0px;
+    width: 30%;
+    border: 6px solid black;
+}
+.para {
+    font-size: 20px;
+    margin-top: 160px;
+    display: inline-block;
+}
+.turismos {
+    position: relative;
+}
