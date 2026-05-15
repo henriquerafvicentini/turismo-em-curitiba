@@ -4,9 +4,23 @@ header {
 }
 
 .rec {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 41px;
     font-style: Arial;
+    font-size: 32px;
+}
+
+.recp {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 41px;
+}
+
+.recc {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 41px;
+    font-weight: bold;
     font-size: 32px;
 }
 
@@ -24,6 +38,11 @@ header {
 .turismos {
     position: relative;
     margin: 0 auto;
+}
+
+.loc {
+    color: red;
+    text-decoration: none;
 }
 
 .imagemd {
@@ -122,4 +141,11 @@ header {
     background: rgb(72, 255, 0);
     z-index: -1;
     border-radius: 10px;
+}
+
+.footerqd {
+    margin-top: 100px;
+    background: #ffc95e;
+    height: 200px;
+    width: 1525px;
 }
