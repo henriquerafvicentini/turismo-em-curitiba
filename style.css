@@ -1,10 +1,18 @@
 header {
-    background: #CCCCCC;
+    background: #ffc95e;
     padding: 10px 0;
+}
+
+.rec {
+    margin-top: 30px;
+    margin-left: 41px;
+    font-style: Arial;
+    font-size: 32px;
 }
 
 .caixa {
     position: relative;
+    margin: 0 auto;
 }
 
 .tp {
@@ -13,7 +21,12 @@ header {
     font-weight: bold;
 
 }
-.imagem {
+.turismos {
+    position: relative;
+    margin: 0 auto;
+}
+
+.imagemd {
     position: absolute;
     top: 60px;
     right: 50px;
@@ -22,11 +35,91 @@ header {
     width: 30%;
     border: 6px solid black;
 }
-.para {
-    font-size: 20px;
-    margin-top: 160px;
-    display: inline-block;
+
+.qdmdo {
+    top: 60px;
+    right: 420px;
+    position: absolute;
+    width: 250px;
+    height: 353px;
+    background: rgb(232, 221, 56);
+    z-index: -1;
+    border-radius: 10px;
 }
-.turismos {
-    position: relative;
+
+
+.txtmdo {
+    background-color: rgb(232, 221, 56);
+    padding: 30px 20px 30px 45px;
+    width: 900px;
+    margin-left: 40px;
+    font-size: 23px;
+    margin-top: 93px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.qdpt {
+    top: 118px;
+    left: 420px;
+    position: absolute;
+    width: 250px;
+    height: 359px;
+    background: rgb(255, 150, 58);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.txtpt {
+    width: 900px;
+    padding: 30px 26px 30px 54px;
+    margin-left: 490px;
+    font-size: 24px;
+    margin-top: 158px;
+    display: inline-block;
+    background: rgb(255, 150, 58);
+    border-radius: 10px;
+}
+
+.imageme {
+    position: absolute;
+    top: 118px;
+    left: 40px;
+    display: block;
+    margin-right: 0px;
+    width: 30%;
+    height: 80%;
+    border: 6px solid black;
+}
+
+.imagemdjb {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    display: block;
+    margin-right: 0px;
+    width: 30%;
+    border: 6px solid black;
+}
+
+.txtjb {
+    background-color: rgb(72, 255, 0);
+    padding: 30px 25px 30px 45px;
+    width: 900px;
+    margin-left: 40px;
+    font-size: 23px;
+    margin-top: 120px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.qdjb {
+    top: 100px;
+    right: 420px;
+    position: absolute;
+    width: 250px;
+    height: 353px;
+    background: rgb(72, 255, 0);
+    z-index: -1;
+    border-radius: 10px;
 }
